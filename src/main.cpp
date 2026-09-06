@@ -5,7 +5,6 @@
  * Mô tả:
  * - Vệ tinh CubeSat PTITCube sử dụng chung giao tiếp (UART) cho cả 
  *   mạch GPS và ESP32-CAM (truyền ảnh UART hoặc kích hoạt phần cứng).
- * - Mạch sử dụng các IC Multiplexer (như 74HC4052) hoặc IC đệm (Buffer).
  * - Bằng cách điều khiển các chân `gpsSelectPin` và `camSelectPin`,
  *   ESP32 có thể chọn giao tiếp với GPS hoặc Camera tùy từng thời điểm.
  */
